@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Radovic Enterijer - Proizvodi od drveta </title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: url('path-to-your-fruit-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: rgb(97, 34, 34);
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background:#B17457;
+            color: #fff;
+            padding: 10px 0; 
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 400px; 
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: black;
+        }
+
+        main {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8); 
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: black;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .proizvod {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: calc(33% - 10px);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-divider {
+            border-top: 2px solid #b17457;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #9e0000;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .gallery img {
+                width: calc(50% - 10px);
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery img {
+                width: 100%;
+            }
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form div {
+            margin-bottom: 10px;
+        }
+
+        input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        .recenzija {
+            background: rgba(245, 245, 245, 0.8);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .recenzija-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .recenzija-header h3 {
+            margin: 0;
+        }
+
+        .zvezde {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#o-nama">O nama</a></li>
+                    <li><a href="#proizvodi">Proizvodi</a></li>
+                    <li><a href="#galerija">Galerija</a></li>
+                    <li><a href="#usluge">Usluge</a></li>
+                    <li><a href="#recenzije">Recenzije</a></li>
+                    <li><a href="#faq">Česta pitanja</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section id="o-nama">
+            <h2>O nama</h2>
+            <p>            <p></p>            <p>
+Porodična firma Radović-Enterijer osnovana je 27.08.2004. godine kao naslednik SZR „Dragan Radović“ koja je postojala i uspešno poslovala od 1984. godine. Osnivanjem zanatske radnje Dragan Radović je svoje neprocenjivo iskustvo i znanje preneo u proizvodnju unikatnog komadnog nameštaja od masiva radeći u njoj dugi niz godina. Polako i postepeno osvajajući pozicije na tržištu stekao je reputaciju kvalitetom, cenom i rokovima izrade. Zanatska radnja je postojala do 1.1.2005. godine kada je ugašena. Porodični biznis se dalje razvijao – kao spoj iskustva, tradicije, stečene tržišne pozicije, poslovnosti i inovativnog duha nastalo je preduzeće Radović-Enterijer d.o.o.</p>
+
+            </p>
+            <h3>Naša misija</h3>
+            <p>Naša misija je da pružimo potrošačima najbolju uslugu i proizvode, uz poštovanje prema prirodi i lokalnim zajednicama.</p>
+        </section>
+        
+        <div class="section-divider"></div>
+
+        <section id="proizvodi">
+            <h2>Naši proizvodi</h2>
+            <div class="proizvod">
+                <h3>Stolice</h3>
+                <p>Stolica od hrasta predstavlja spoj elegancije i izdržljivosti. Hrast je poznat kao jedno od najkvalitetnijih drveta, cenjeno zbog svoje čvrstoće i otpornosti na habanje, što stolice izrađene od ovog materijala čini izuzetno dugotrajnim. Njegova prirodna tekstura i topli tonovi – u rasponu od svetložutih do tamnijih, bogatih nijansi – unose prirodnu i luksuznu estetiku u prostor.
+
+Stolica od hrasta može imati standardne dimenzije s visinom sedišta od oko 45 cm, širinom od 40-50 cm i ukupnom visinom do naslona oko 80-90 cm. Hrast je zahvalan materijal za obradu, pa može biti glatko brušen i lakiran, što daje sofisticiran izgled, ili tretiran na način koji ističe njegovu sirovu teksturu za rustičniji stil. Ove stolice lako se uklapaju u različite enterijere, od klasičnih i tradicionalnih, pa sve do modernih i minimalističkih prostora, pružajući udobnost, stil i dugovečnost.</p>
+            </div>
+            <div class="proizvod">
+                <h3>Stolovi</h3>
+                <p>
+Sto od hrasta je izdržljiv, elegantan komad nameštaja koji unosi toplinu prirodnog drveta u prostor. Hrast je poznat po svojoj čvrstini i dugotrajnosti, zbog čega je idealan za stolove koji se svakodnevno koriste. Njegove tople nijanse, od svetle do tamno smeđe, lepo se uklapaju u svaki enterijer.</p>
+            </div>
+            <div class="proizvod">
+                <h3>Fotelje</h3>
+                <p>Fotelja je popularan komad nameštaja koji kombinuje udobnost i stil, idealan za opuštanje i dodatak svakom prostoru. Zahvaljujući širokom i dubokom sedištu, visokim naslonima i često dodatnim jastucima, fotelja pruža udobnost i oslonac, bilo da se koristi za čitanje, gledanje televizije ili jednostavno odmaranje.
+
+Dostupna je u različitim stilovima – od klasičnih sa raskošnim detaljima do minimalističkih i modernih linija – kao i u različitim materijalima, poput tkanine, kože ili pliša. Fotelje se često biraju kako bi se dopunio stil prostorije ili stvorio udoban kutak u dnevnoj sobi, spavaćoj sobi ili kancelariji. Bez obzira na dizajn, dobra fotelja uvek doprinosi osećaju domaće atmosfere i udobnosti.</p>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="usluge">
+            <h2>Usluge</h2>
+            <p>Pored proizvodnje, nudimo i različite usluge kao što su:</p>
+            <ul>
+                <li>Personalizovana pakovanja za specijalne prilike.</li>
+                <li>Radionice o zdravoj ishrani i preradi voća.</li>
+                <li>Usluge dostave na kućnu adresu.</li>
+            </ul>
+        </section>
+
+        <div class="section-divider"></div>
+         <section id="cene">
+            <h2>Cene proizvoda</h2>
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Proizvod</th>
+                        <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Cena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ccc; padding: 8px;">Stolica od punog drveta</td>
+                        <td style="border: 1px solid #ccc; padding: 8px;">12000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ccc; padding: 8px;">Sto od hrasta</td>
+                        <td style="border: 1px solid #ccc; padding: 8px;">26000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ccc; padding: 8px;">Fotelja</td>
+                        <td style="border: 1px solid #ccc; padding: 8px;">18000</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        <section id="galerija">
+            <h2>Galerija</h2>
+            <p>Pogledajte neke od naših proizvoda i procesa proizvodnje:</p>
+            <div class="gallery">
+                <img src="C:\Users\dragi\OneDrive\Desktop\jovan html\stolica.jfif" alt="Stolica" height="400" width="400"/>
+                <img src="C:\Users\dragi\OneDrive\Desktop\jovan html\sto.jpg" alt="Sto" height="400" width="400" />
+                <img src="C:\Users\dragi\OneDrive\Desktop\jovan html\fotelja.webp" alt="Fotelja"  height="400" width="400"/>
+
+                <video width="640" height="360" autoplay loop muted>
+                    <source src="C:\Users\dragi\OneDrive\Desktop\jovan html\obrada.mp4" type="video/mp4">
+                    
+                </video>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="recenzije">
+            <h2>Recenzije</h2>
+            <div class="recenzija">
+                <div class="recenzija-header">
+                    <h3>Nemanja Radovic</h3>
+                    <div class="zvezde">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                </div>
+                <p>"Fotelja je udobna,prezadovoljan sam.Sve preporuke"</p>
+            </div>
+            <div class="recenzija">
+                <div class="recenzija-header">
+                    <h3>Ivanka Stokic</h3>
+                    <div class="zvezde">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                </div>
+                <p>"Sto je veliki i prostran,odgovara mojoj velikoj porodici"</p>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="faq">
+            <h2>Česta pitanja</h2>
+            <h3>Kako mogu naručiti proizvode?</h3>
+            <p>Naručivanje je jednostavno! Možete nas kontaktirati putem e-maila,preko naših društvenih mreža ili u nasim maloprodajnim objektima</p>
+            <h3>Koliko dugo se ceka na isporuku?Da li radite sklapanje vasih proizvoda </h3>
+            <p>Na isporuku se ceka od 5-7 dana.Naravno da vrsimo sastavljanje nasih proizvoda ali se ono izvrsava po uplati naknade na samo sastavljane srazmerno ceni proizvoda./p>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="kontakt">
+            <h2>Kontaktirajte nas</h2>
+            <p>Za više informacija, pišite nam na: <a href="mailto:info@Radovicfabrika.com">info@Radovicfabrika.com</a>.</p>
+            <p>Možete nas kontaktirati i putem društvenih mreža:</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+            
+            <form action="#" method="post">
+                <div>
+                    <label for="email">Vaš mejl:</label>
+                    <input type="email" id="email" name="email" required placeholder="Unesite vaš mejl">
+                </div>
+                <div>
+                    <label for="pitanje">Vaše pitanje:</label>
+                    <textarea id="pitanje" name="pitanje" required placeholder="Unesite vaše pitanje"></textarea>
+                </div>
+                <button type="submit">Pošaljite</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Radovic enterijer. Sva prava zadržana.</p>
+    </footer>
+</body>
+</html>
